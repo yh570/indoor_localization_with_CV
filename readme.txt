@@ -1,3 +1,7 @@
+Indoor localization with camera
+Current version: detect Rubick’s cube and evaluate the distance between the camera with the cube.
+To do: QR code detection, and extract the information from QR code and localize the camera.
+
 Main script:
   video_local.m: indoor localization with video input
     usage: video_local('IMG.MOV', 0) //option_flag == 0 for previous data, 1 for new data

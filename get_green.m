@@ -119,12 +119,7 @@ greenThresholdHigh = 255;
 blueThresholdLow = 0;
 blueThresholdHigh = 80;
 
-if enable_plot == 1
-    % Plot the threshold line in the plot
-    PlaceThresholdBars(6, redThresholdLow, redThresholdHigh);
-    PlaceThresholdBars(7, greenThresholdLow, greenThresholdHigh);
-    PlaceThresholdBars(8, blueThresholdLow, blueThresholdHigh);
-end
+
 
 
 %% get 3 color's mask image

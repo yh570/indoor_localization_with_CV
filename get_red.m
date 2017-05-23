@@ -130,13 +130,6 @@ greenThresholdHigh = 80;
 blueThresholdLow = 0;
 blueThresholdHigh = 80;
 
-if enable_plot == 1
-    % Plot the threshold line in the plot
-    PlaceThresholdBars(6, redThresholdLow, redThresholdHigh);
-    PlaceThresholdBars(7, greenThresholdLow, greenThresholdHigh);
-    PlaceThresholdBars(8, blueThresholdLow, blueThresholdHigh);
-end
-
 
 %% get 3 color's mask image
 % keep the majority of red channel and cut off green and blue
@@ -292,10 +285,10 @@ corner_y = B(corners_4, 1);
 
 if enable_plot == 1
     figure, imshow(image), hold on
-    plot(corner_x(1), corner_y(1), 's', 'MarkerSize',40, 'MarkerFaceColor','b')
-    plot(corner_x(2), corner_y(2), 's', 'MarkerSize',40, 'MarkerFaceColor','b')
-    plot(corner_x(3), corner_y(3), 's', 'MarkerSize',40, 'MarkerFaceColor','b')
-    plot(corner_x(4), corner_y(4), 's', 'MarkerSize',40, 'MarkerFaceColor','b')
+    plot(corner_x(1), corner_y(1), 's', 'MarkerSize',15, 'MarkerFaceColor','b')
+    plot(corner_x(2), corner_y(2), 's', 'MarkerSize',15, 'MarkerFaceColor','b')
+    plot(corner_x(3), corner_y(3), 's', 'MarkerSize',15, 'MarkerFaceColor','b')
+    plot(corner_x(4), corner_y(4), 's', 'MarkerSize',15, 'MarkerFaceColor','b')
 
     hold off, title('Corners')
 end

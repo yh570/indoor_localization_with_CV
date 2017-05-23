@@ -109,10 +109,6 @@ greenThresholdHigh = 80;
 blueThresholdLow = 100;
 blueThresholdHigh = 255;
 
-% Plot the threshold line in the plot
-PlaceThresholdBars(6, redThresholdLow, redThresholdHigh);
-PlaceThresholdBars(7, greenThresholdLow, greenThresholdHigh);
-PlaceThresholdBars(8, blueThresholdLow, blueThresholdHigh);
 
 
 
