@@ -4,7 +4,7 @@ function [x,y] = video_local(video_name, option_flag)
 %   Default zero point is at cube's left-middel-down corner...
 %
 % Usage:
-%   e.g [x,y] = video_local('IMG.MOV', 1)
+%   e.g [x,y] = video_local('./sample/IMG.MOV', 1)
 %
 % option_flag:
 %   0 = previous data, if previous data not exist, will capture the new data

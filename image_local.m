@@ -4,7 +4,7 @@ function [x,y] = image_local(image_prefix, number, option_flag)
 %   Default zero point is at cube's left-middel-down corner...
 %
 % Usage:
-%   e.g [x,y] = image_local('cube1_', 8, 1)
+%   e.g [x,y] = image_local('./sample/cube1_', 8, 1)
 %
 % option_flag:
 %   0 = previous data, if previous data not exist, will capture the new data
